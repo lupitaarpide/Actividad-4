@@ -38,4 +38,32 @@ public class Profesor {
     public String getNombre() {
         return nombre;
     }
+
+    public String getNumeroNomina() {
+        return numeroNomina;
+    }
+
+    public double getSueldoPorHora() {
+        return sueldoPorHora;
+    }
+
+    public Curso getCurso() {
+        return curso;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setNumeroNomina(String numeroNomina) {
+        this.numeroNomina = numeroNomina;
+    }
+
+    public void setSueldoPorHora(double sueldoPorHora) {
+        this.sueldoPorHora = sueldoPorHora;
+    }
+
+    public void setCurso(Curso curso) {
+        this.curso = curso;
+    }
 }

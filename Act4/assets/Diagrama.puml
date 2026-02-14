@@ -1,0 +1,17 @@
+@startuml
+actor Usuario
+participant Main
+participant Materia
+participant Curso
+participant Profesor
+participant Alumno
+
+Usuario -> Main: ingresar datos
+Main -> Materia: crear(3 materias)
+Main -> Curso: crear(curso, materias)
+Main -> Profesor: crear(profesor)
+Main -> Profesor: asignarMateria(materia)
+Main -> Alumno: crear(alumno, curso)
+Main -> Curso: calcularCreditosTotales()
+Main -> Profesor: calcularSueldoSemanal()
+@enduml
